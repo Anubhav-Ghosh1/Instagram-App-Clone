@@ -1,0 +1,145 @@
+:root{
+ --back-ground : #000000;
+}
+*{
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+@media screen and (max-width: 376px) {
+    html{
+        background-color: var(--back-ground);
+    }
+    /* Nav Bar */
+    .top-nav{
+        position: relative;
+        /* left: -20px; */
+        /* background-color: #000000; */
+    }
+    /* Story area */
+    .story-area{ 
+        display: flex;
+        position: relative;
+        top: -19px;
+    }
+    /* Story Circle */
+    .circle-story{
+        /* background-color: aliceblue; */
+        height: 70px;
+        width: 70px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 0.5px solid rgba(203, 202, 202, 0.289);
+        border-radius: 50%;
+    }
+    /* User */
+    .header-user{
+        width: 375px;
+        height: 50px;
+        position: relative;
+        top: 15px;
+    }
+    /* Profile picture */
+    .profile-picture{
+        overflow: hidden;
+        position: relative;
+        top: 4px;
+        left: 5px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: lightblue;
+    }
+    /* User name and Location */
+    .pre{
+        display: inline-block;
+        position: relative;
+        font-weight: 300;
+        color: white;
+        top: -35px;
+        left: -20px;
+    }
+    /* Three dot */
+    .container-three-dots{
+        display: flex;
+        flex-direction: column;
+    }
+    .dot{
+        position: relative;
+        top: -76px;
+        left: 350px;
+        width: 3px;
+        height: 3px;
+        margin-top: 2px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    /* Post */
+    .post{
+        position: relative;
+        top: 15px;
+    }
+    .nav-bar{
+        z-index: 1;
+        position: fixed;
+        top: 640px;
+    }
+    .position{
+        position: relative;
+        left: -8px;
+        top: -17px;
+        height: 60px;
+    }
+    .harshit{
+        position: relative;
+        left: 0px;
+        top: -4px;
+    }
+    /* Post ended */
+    /* Stroy */
+    .circle-story{
+        overflow: hidden;
+    }
+    .story-inside{
+        height: 100px;
+    }
+    .story-inside1{
+        height: 70px;
+    }
+    .story-inside2{
+        height: 70px;
+    }
+    /* Story */
+    /* Button */
+    .take-picture{
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        z-index: 2;
+        top: 648px;
+        left: 170px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .image-position{
+        position: relative;
+        top: -5px;
+        left: -10px;
+    }
+    /* Button */
+    /* User name */
+    .username{
+        color: white;
+        display: flex;
+    }
+    .names span{
+        left: 15px;
+        font-size: 12px;
+        position: relative;
+        margin-right: 30px;
+        top: 80px;
+    }
+}
